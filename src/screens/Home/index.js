@@ -4,6 +4,8 @@ import { AntDesign } from '@expo/vector-icons';
 import { Wrapper, Header, BalanceContainer, BalanceTitle, Balance, ScrollContainer } from './styles';
 import Suggestions from '../../components/Suggestions';
 import Activities from '../../components/Activities';
+import Tips from '../../components/Tips';
+import Banner from '../../components/Banner';
 
 export default function HomeScreen() {
   return (
@@ -22,6 +24,8 @@ export default function HomeScreen() {
 
         <Suggestions />
         <Activities />
+        <Tips />
+        <Banner />
       </ScrollContainer>
     </Wrapper>
 

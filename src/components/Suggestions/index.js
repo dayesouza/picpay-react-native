@@ -1,5 +1,5 @@
 import React from 'react';
-import { ScrollContainer,Option, Img, Label } from './styles';
+import { ScrollContainer, Option, Img, Label } from './styles';
 
 import img1 from '../../images/01.png';
 import img2 from '../../images/02.png';
